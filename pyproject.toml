@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "graphql-field-visibility"
+version = "0.1.0"
+description = "GraphQL Field Visibility"
+authors = ["r.shmelev <verial88@mail.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+django = "^5.1.4"
+graphene-django = "^3.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
